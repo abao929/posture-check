@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/abao929/github.io/posture-check/static/css/main.579cc8df.css",
+    "main.js": "/abao929/github.io/posture-check/static/js/main.311b7b49.js",
+    "static/media/sound3.wav": "/abao929/github.io/posture-check/static/media/sound3.8625a8b0e5f40ab98f21.wav",
+    "static/media/sound1.wav": "/abao929/github.io/posture-check/static/media/sound1.1b09d1684a2c3c25db62.wav",
+    "static/media/sound4.wav": "/abao929/github.io/posture-check/static/media/sound4.74f08fd4e3c693bcd6ca.wav",
+    "static/media/sound5.wav": "/abao929/github.io/posture-check/static/media/sound5.71493bf8f0226369a6cc.wav",
+    "static/media/sound2.wav": "/abao929/github.io/posture-check/static/media/sound2.95ef3e8a4b3b3d011cdd.wav",
+    "index.html": "/abao929/github.io/posture-check/index.html",
+    "main.579cc8df.css.map": "/abao929/github.io/posture-check/static/css/main.579cc8df.css.map",
+    "main.311b7b49.js.map": "/abao929/github.io/posture-check/static/js/main.311b7b49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.579cc8df.css",
+    "static/js/main.311b7b49.js"
+  ]
+}
