@@ -5,10 +5,15 @@ import Strobe from './Strobe';
 import './strobe.scss';
 
 function App() {
-  const NUM_AUDIOS: number = 5;
+  const NUM_AUDIOS: number = 2;
   const FIVE_MINS: number = 60000 * 5;
   const [audioEnabled, setAudioEnabled] = useState<Boolean>(false);
   const [flashEnabled, setFlashEnabled] = useState<Boolean>(false);
+  const mappings: { [id: number]: string } = {
+    0: 'Me',
+    1: 'Vignesh',
+    2: 'Corbin',
+  };
 
   const playAudio = (i: number) => {
     console.log(`play audio ${i}`);
