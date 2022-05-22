@@ -36,6 +36,7 @@ function App() {
   };
 
   const postureAlert = () => {
+    alert('hello??');
     let i: number = Math.floor(Math.random() * NUM_AUDIOS);
     if (audioEnabled) playAudio(i);
     // if (flashEnabled) flash(i);
