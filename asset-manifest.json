@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/posture-check/static/css/main.a461719f.css",
-    "main.js": "/posture-check/static/js/main.e36c648a.js",
+    "main.js": "/posture-check/static/js/main.d77eef20.js",
     "static/media/sound1.wav": "/posture-check/static/media/sound1.a995a34892b9dd931a98.wav",
     "static/media/sound2.wav": "/posture-check/static/media/sound2.f63d4224792b62ee9468.wav",
     "index.html": "/posture-check/index.html",
     "main.a461719f.css.map": "/posture-check/static/css/main.a461719f.css.map",
-    "main.e36c648a.js.map": "/posture-check/static/js/main.e36c648a.js.map"
+    "main.d77eef20.js.map": "/posture-check/static/js/main.d77eef20.js.map"
   },
   "entrypoints": [
     "static/css/main.a461719f.css",
-    "static/js/main.e36c648a.js"
+    "static/js/main.d77eef20.js"
   ]
 }
