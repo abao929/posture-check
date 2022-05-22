@@ -5,7 +5,7 @@ import './strobe.scss';
 
 function App() {
   const NUM_AUDIOS: number = 2;
-  const FIVE_MINS: number = 60000 / 10;
+  const FIVE_MINS: number = 60000 * 5;
   const [audioEnabled, setAudioEnabled] = useState<Boolean>(false);
   const [flashEnabled, setFlashEnabled] = useState<Boolean>(false);
   const mappings: { [id: number]: string } = {
@@ -15,7 +15,6 @@ function App() {
   };
 
   const playAudio = (i: number) => {
-    console.log(`play audio ${i}`);
     let audio: HTMLAudioElement = new Audio(
       require(`./sounds/sound${i + 1}.wav`)
     );
@@ -37,7 +36,6 @@ function App() {
 
   const postureAlert = () => {
     let i: number = Math.floor(Math.random() * NUM_AUDIOS);
-    console.log(audioEnabled);
     if (audioEnabled) playAudio(i);
     // if (flashEnabled) flash(i);
   };
