@@ -4,7 +4,7 @@ import Strobe from './Strobe';
 import './strobe.scss';
 
 function App() {
-  const NUM_AUDIOS: number = 3;
+  const NUM_AUDIOS: number = 5;
   const FIVE_MINS: number = 60000 * 5;
   const [audioEnabled, setAudioEnabled] = useState<Boolean>(false);
   const [flashEnabled, setFlashEnabled] = useState<Boolean>(false);
@@ -13,6 +13,8 @@ function App() {
     1: 'Vignesh',
     2: 'Corbin',
     3: 'Anusha',
+    4: 'Shawn',
+    5: 'Shawn',
   };
 
   const playAudio = (i: number) => {
